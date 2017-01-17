@@ -1,0 +1,6 @@
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\bin\Debug\Assignment3.exe.config
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\bin\Debug\Assignment3.exe
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\bin\Debug\Assignment3.pdb
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\obj\Debug\Assignment3.csprojResolveAssemblyReference.cache
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\obj\Debug\Assignment3.exe
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment3\obj\Debug\Assignment3.pdb

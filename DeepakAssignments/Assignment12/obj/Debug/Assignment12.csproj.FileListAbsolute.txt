@@ -1,0 +1,6 @@
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\bin\Debug\Assignment12.exe.config
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\bin\Debug\Assignment12.exe
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\bin\Debug\Assignment12.pdb
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\obj\Debug\Assignment12.csprojResolveAssemblyReference.cache
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\obj\Debug\Assignment12.exe
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment12\obj\Debug\Assignment12.pdb

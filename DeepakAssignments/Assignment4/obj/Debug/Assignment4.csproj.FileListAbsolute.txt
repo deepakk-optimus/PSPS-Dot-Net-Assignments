@@ -1,0 +1,9 @@
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\bin\Debug\Assignment4.exe.config
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\bin\Debug\Assignment4.exe
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\bin\Debug\Assignment4.pdb
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\obj\Debug\Assignment4.exe
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\obj\Debug\Assignment4.pdb
+c:\users\optimus69\documents\visual studio 2015\Projects\DeepakAssignments\Assignment4\obj\Debug\Assignment4.csprojResolveAssemblyReference.cache
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment4\bin\Debug\Assignment4.exe.config
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment4\obj\Debug\Assignment4.exe
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\Assignment4\obj\Debug\Assignment4.pdb

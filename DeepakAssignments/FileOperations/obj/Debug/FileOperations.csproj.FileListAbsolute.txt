@@ -1,0 +1,6 @@
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\bin\Debug\FileOperations.exe.config
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\bin\Debug\FileOperations.exe
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\bin\Debug\FileOperations.pdb
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\obj\Debug\FileOperations.csprojResolveAssemblyReference.cache
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\obj\Debug\FileOperations.exe
+C:\Users\deepak.kumar\Documents\Visual Studio 2015\Projects\DeepakAssignments\FileOperations\obj\Debug\FileOperations.pdb
