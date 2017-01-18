@@ -1,0 +1,6 @@
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\bin\Debug\Assignment5.exe.config
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\bin\Debug\Assignment5.exe
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\bin\Debug\Assignment5.pdb
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\obj\Debug\Assignment5.csprojResolveAssemblyReference.cache
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\obj\Debug\Assignment5.exe
+C:\Users\optimus25\Documents\Visual Studio 2015\Projects\Assignment\Assignment5\obj\Debug\Assignment5.pdb

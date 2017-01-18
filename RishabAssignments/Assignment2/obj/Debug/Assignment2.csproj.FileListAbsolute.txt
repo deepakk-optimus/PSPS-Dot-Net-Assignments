@@ -1,0 +1,5 @@
+c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment2\bin\Debug\Assignment2.exe.config
+c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment2\bin\Debug\Assignment2.exe
+c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment2\bin\Debug\Assignment2.pdb
+c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment2\obj\Debug\Assignment2.exe
+c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment2\obj\Debug\Assignment2.pdb
