@@ -4,3 +4,6 @@ c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment1\
 c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment1\obj\Debug\Assignment1.csprojResolveAssemblyReference.cache
 c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment1\obj\Debug\Assignment1.exe
 c:\users\optimus25\documents\visual studio 2015\Projects\Assignment\Assignment1\obj\Debug\Assignment1.pdb
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\Assignment1\bin\Debug\Assignment1.exe.config
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\Assignment1\obj\Debug\Assignment1.exe
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\Assignment1\obj\Debug\Assignment1.pdb
