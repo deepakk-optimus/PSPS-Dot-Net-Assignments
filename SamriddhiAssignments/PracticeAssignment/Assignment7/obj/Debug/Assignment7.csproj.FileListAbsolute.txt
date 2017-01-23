@@ -1,0 +1,6 @@
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\bin\Debug\Assignment7.exe.config
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\bin\Debug\Assignment7.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\bin\Debug\Assignment7.pdb
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\obj\Debug\Assignment7.csprojResolveAssemblyReference.cache
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\obj\Debug\Assignment7.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\PracticeAssignment\Assignment7\obj\Debug\Assignment7.pdb
