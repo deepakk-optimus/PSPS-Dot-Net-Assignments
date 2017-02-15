@@ -1,0 +1,6 @@
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\bin\Debug\ThreadAssignment.exe.config
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\obj\Debug\ThreadAssignment.csprojResolveAssemblyReference.cache
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\bin\Debug\ThreadAssignment.exe
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\bin\Debug\ThreadAssignment.pdb
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\obj\Debug\ThreadAssignment.exe
+C:\PSPS-Dot-Net-Assignments\RishabAssignments\ThreadAssignment\obj\Debug\ThreadAssignment.pdb
