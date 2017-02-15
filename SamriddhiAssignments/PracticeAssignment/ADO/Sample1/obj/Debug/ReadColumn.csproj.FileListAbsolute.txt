@@ -1,0 +1,6 @@
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\bin\Debug\Sample1.exe.config
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\bin\Debug\Sample1.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\bin\Debug\Sample1.pdb
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\obj\Debug\ReadColumn.csprojResolveAssemblyReference.cache
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\obj\Debug\Sample1.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\ADO\Sample1\obj\Debug\Sample1.pdb

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirstDemoDB" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstDemoDBContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Students" EntityType="ModelFirstDemoDB.Student" />
+    <EntitySet Name="Courses" EntityType="ModelFirstDemoDB.Course" />
+    <EntitySet Name="Enrollments" EntityType="ModelFirstDemoDB.Enrollment" />
+    <AssociationSet Name="StudentEnrollment" Association="ModelFirstDemoDB.StudentEnrollment">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Enrollment" EntitySet="Enrollments" />
+    </AssociationSet>
+    <AssociationSet Name="EnrollmentCourse" Association="ModelFirstDemoDB.EnrollmentCourse">
+      <End Role="Enrollment" EntitySet="Enrollments" />
+      <End Role="Course" EntitySet="Courses" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" />
+    <Property Name="LastName" Type="String" Nullable="false" />
+    <Property Name="EnrollmentId" Type="String" Nullable="false" />
+    <NavigationProperty Name="Enrollments" Relationship="ModelFirstDemoDB.StudentEnrollment" FromRole="Student" ToRole="Enrollment" />
+  </EntityType>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" />
+    <NavigationProperty Name="Enrollments" Relationship="ModelFirstDemoDB.EnrollmentCourse" FromRole="Course" ToRole="Enrollment" />
+  </EntityType>
+  <EntityType Name="Enrollment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="String" Nullable="false" />
+    <Property Name="CourseId" Type="String" Nullable="false" />
+    <Property Name="StudentEnrollmentId" Type="String" Nullable="false" />
+    <NavigationProperty Name="Student" Relationship="ModelFirstDemoDB.StudentEnrollment" FromRole="Enrollment" ToRole="Student" />
+    <Property Name="StudentId1" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Course" Relationship="ModelFirstDemoDB.EnrollmentCourse" FromRole="Enrollment" ToRole="Course" />
+  </EntityType>
+  <Association Name="StudentEnrollment">
+    <End Type="ModelFirstDemoDB.Student" Role="Student" Multiplicity="1" />
+    <End Type="ModelFirstDemoDB.Enrollment" Role="Enrollment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Enrollment">
+        <PropertyRef Name="StudentId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EnrollmentCourse">
+    <End Type="ModelFirstDemoDB.Enrollment" Role="Enrollment" Multiplicity="*" />
+    <End Type="ModelFirstDemoDB.Course" Role="Course" Multiplicity="1" />
+  </Association>
+</Schema>

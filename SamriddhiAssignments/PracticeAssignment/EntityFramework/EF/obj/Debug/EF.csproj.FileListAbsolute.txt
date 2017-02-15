@@ -1,0 +1,10 @@
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EF.exe.config
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EF.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EF.pdb
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EntityFramework.dll
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EntityFramework.xml
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\obj\Debug\EF.exe
+C:\Users\optimus2\Documents\Visual Studio 2015\Projects\EntityFramework\EF\obj\Debug\EF.pdb

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelFirstDemoDB.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstDemoDBStoreContainer">
+    <EntitySet Name="Students" EntityType="ModelFirstDemoDB.Store.Students" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Courses" EntityType="ModelFirstDemoDB.Store.Courses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Enrollments" EntityType="ModelFirstDemoDB.Store.Enrollments" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StudentEnrollment" Association="ModelFirstDemoDB.Store.StudentEnrollment">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Enrollment" EntitySet="Enrollments" />
+    </AssociationSet>
+    <AssociationSet Name="EnrollmentCourse" Association="ModelFirstDemoDB.Store.EnrollmentCourse">
+      <End Role="Enrollment" EntitySet="Enrollments" />
+      <End Role="Course" EntitySet="Courses" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EnrollmentId" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Enrollments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CourseId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StudentEnrollmentId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StudentId1" Type="int" Nullable="false" />
+    <Property Name="Course_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="StudentEnrollment">
+    <End Role="Student" Type="ModelFirstDemoDB.Store.Students" Multiplicity="1" />
+    <End Role="Enrollment" Type="ModelFirstDemoDB.Store.Enrollments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Enrollment">
+        <PropertyRef Name="StudentId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EnrollmentCourse">
+    <End Role="Enrollment" Type="ModelFirstDemoDB.Store.Enrollments" Multiplicity="*" />
+    <End Role="Course" Type="ModelFirstDemoDB.Store.Courses" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Course">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Enrollment">
+        <PropertyRef Name="Course_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,11 @@
+EF Code First Approach -  Console Application
+Link :- http://www.entityframeworktutorial.net/code-first/simple-code-first-example.aspx
+
+Additions : 
+1. Connections Strings in app.config-
+<connectionStrings>
+<add name="SchoolContext" connectionString="data source=OPTIMUS-2;initial catalog=SchoolModel;user id=sa;password=root;Integrated security=false; MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+2. Add following class in SchoolContext class
+public SchoolContext() : base("SchoolContext")

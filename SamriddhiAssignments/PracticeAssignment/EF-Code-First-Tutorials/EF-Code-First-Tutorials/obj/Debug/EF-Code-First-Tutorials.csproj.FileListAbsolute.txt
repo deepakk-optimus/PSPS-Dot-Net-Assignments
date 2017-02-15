@@ -1,0 +1,10 @@
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EF-Code-First-Tutorials.exe.config
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EF-Code-First-Tutorials.exe
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EF-Code-First-Tutorials.pdb
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EntityFramework.dll
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EntityFramework.xml
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\obj\Debug\EF-Code-First-Tutorials.csprojResolveAssemblyReference.cache
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\obj\Debug\EF-Code-First-Tutorials.exe
+c:\users\optimus2\documents\visual studio 2015\Projects\EF-Code-First-Tutorials\EF-Code-First-Tutorials\obj\Debug\EF-Code-First-Tutorials.pdb

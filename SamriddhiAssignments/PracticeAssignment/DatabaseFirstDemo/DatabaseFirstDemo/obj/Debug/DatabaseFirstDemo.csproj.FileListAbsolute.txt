@@ -1,0 +1,10 @@
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe.config
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.pdb
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.dll
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.xml
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csprojResolveAssemblyReference.cache
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.exe
+c:\users\optimus2\documents\visual studio 2015\Projects\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.pdb
