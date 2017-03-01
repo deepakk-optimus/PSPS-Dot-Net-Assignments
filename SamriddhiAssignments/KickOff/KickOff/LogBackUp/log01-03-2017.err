@@ -1,0 +1,5 @@
+01 Mar 2017 14:56:49,302 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+01 Mar 2017 14:56:49,370 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+01 Mar 2017 14:56:49,376 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+01 Mar 2017 14:56:49,415 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+01 Mar 2017 14:56:51,670 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved

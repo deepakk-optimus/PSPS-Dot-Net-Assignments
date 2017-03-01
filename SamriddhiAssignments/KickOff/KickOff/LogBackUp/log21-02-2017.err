@@ -1,0 +1,371 @@
+21 Feb 2017 14:50:05,991 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 14:50:06,006 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+21 Feb 2017 14:50:24,100 [19] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 14:50:24,108 [19] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+21 Feb 2017 14:51:05,115 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 14:51:05,119 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+21 Feb 2017 14:55:15,074 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 14:55:15,092 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 15:04:02,932 [8] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.IO.FileNotFoundException: Could not find file 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'.
+File name: 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.Application.SwaggerDocsConfig.<>c__DisplayClass7.<IncludeXmlComments>b__6()
+   at Swashbuckle.Application.SwaggerDocsConfig.GetSwaggerProvider(HttpRequestMessage swaggerRequest)
+   at Swashbuckle.Application.SwaggerDocsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpRoutingDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+21 Feb 2017 15:07:59,579 [15] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.IO.FileNotFoundException: Could not find file 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'.
+File name: 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.Application.SwaggerDocsConfig.<>c__DisplayClass7.<IncludeXmlComments>b__6()
+   at Swashbuckle.Application.SwaggerDocsConfig.GetSwaggerProvider(HttpRequestMessage swaggerRequest)
+   at Swashbuckle.Application.SwaggerDocsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpRoutingDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+21 Feb 2017 15:08:04,058 [16] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.IO.FileNotFoundException: Could not find file 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'.
+File name: 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.Application.SwaggerDocsConfig.<>c__DisplayClass7.<IncludeXmlComments>b__6()
+   at Swashbuckle.Application.SwaggerDocsConfig.GetSwaggerProvider(HttpRequestMessage swaggerRequest)
+   at Swashbuckle.Application.SwaggerDocsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpRoutingDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+21 Feb 2017 15:16:28,480 [16] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.IO.FileNotFoundException: Could not find file 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'.
+File name: 'c:\users\optimus2\documents\visual studio 2015\Projects\KickOff\KickOff\bin\SwaggerUi.XML'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.Application.SwaggerDocsConfig.<>c__DisplayClass7.<IncludeXmlComments>b__6()
+   at Swashbuckle.Application.SwaggerDocsConfig.GetSwaggerProvider(HttpRequestMessage swaggerRequest)
+   at Swashbuckle.Application.SwaggerDocsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.Dispatcher.HttpRoutingDispatcher.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+21 Feb 2017 17:57:20,503 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:57:20,523 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:57:20,529 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:57:20,552 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:57:20,830 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 17:59:24,731 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:24,748 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:59:24,753 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:59:24,774 [14] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:59:25,062 [14] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 17:59:34,332 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:34,338 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:59:34,344 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:59:34,350 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:59:34,357 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 17:59:39,968 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:39,974 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:59:39,981 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:59:39,987 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:59:39,994 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 17:59:47,980 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:47,985 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:59:47,992 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:59:47,997 [13] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:59:48,004 [13] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 17:59:50,233 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:50,238 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+21 Feb 2017 17:59:53,461 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 17:59:53,466 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 17:59:53,472 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 17:59:53,478 [12] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 17:59:53,485 [12] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:31,929 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:31,945 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:31,950 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:31,956 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:31,964 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:36,694 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:36,699 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:36,704 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:36,711 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:36,717 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:37,576 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:37,585 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:37,594 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:37,599 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:37,605 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:38,355 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:38,359 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:38,366 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:38,370 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:38,376 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:39,019 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:39,023 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:39,028 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:39,032 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:39,038 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:39,686 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:39,693 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:39,698 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:39,703 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:39,710 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:40,298 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:40,303 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:40,308 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:40,312 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:40,318 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:40,918 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:40,924 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:40,929 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:40,934 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:40,939 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:41,625 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:41,629 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:41,634 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:41,638 [12] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:41,643 [12] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:42,250 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:42,255 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:42,259 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:42,264 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:42,270 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:42,731 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:42,736 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:42,741 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:42,746 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:42,752 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:43,267 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:43,271 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:43,276 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:43,281 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:43,287 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:43,790 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:43,795 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:43,801 [9] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:43,805 [9] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:43,810 [9] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:44,016 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:44,021 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:44,025 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:44,030 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:44,036 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:44,239 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:44,244 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:44,248 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:44,252 [14] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:44,258 [14] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:44,440 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:44,445 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:44,449 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:44,454 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:44,459 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:45,000 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:45,005 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:45,009 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:45,014 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:45,019 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:45,378 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:45,383 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:45,387 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:45,393 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:45,398 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:45,607 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:45,612 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:45,616 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:45,621 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:45,626 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:45,831 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:45,836 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:45,840 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:45,845 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:45,850 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:01:52,603 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:01:52,608 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:01:52,613 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:01:52,618 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:01:52,624 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:02:14,452 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:02:14,458 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:02:14,465 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:02:14,470 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:02:14,477 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:16,823 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:16,839 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:16,844 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:16,867 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:17,193 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:18,692 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:18,699 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:18,705 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:18,711 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:18,718 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:19,587 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:19,592 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:19,596 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:19,601 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:19,607 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:20,423 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:20,429 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:20,434 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:20,439 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:20,446 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:21,114 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:21,119 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:21,125 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:21,130 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:21,136 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:21,338 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:21,343 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:21,347 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:21,352 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:21,357 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:21,568 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:21,573 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:21,579 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:21,583 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:21,589 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:22,070 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:22,074 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:22,080 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:22,085 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:22,090 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:22,314 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:22,319 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:22,323 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:22,328 [14] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:22,334 [14] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:03:22,534 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:03:22,539 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:03:22,544 [12] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:03:22,549 [12] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:03:22,555 [12] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:04:09,944 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:04:09,949 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:04:09,954 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:04:09,959 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:04:09,965 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:04:11,016 [19] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:04:11,021 [19] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:04:11,027 [19] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:04:11,032 [19] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:04:11,039 [19] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:44,690 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:44,695 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:44,700 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:44,705 [55] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:44,713 [55] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:47,164 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:47,169 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:47,175 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:47,180 [55] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:47,187 [55] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:48,242 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:48,247 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:48,252 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:48,257 [54] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:48,263 [54] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:49,187 [57] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:49,192 [57] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:49,197 [57] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:49,202 [57] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:49,209 [57] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:49,790 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:49,794 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:49,800 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:49,805 [54] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:49,811 [54] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:50,060 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:50,066 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:50,071 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:50,076 [55] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:50,082 [55] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:50,261 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:50,266 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:50,270 [54] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:50,275 [54] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:50,280 [54] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:50,455 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:50,460 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:50,464 [55] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:50,468 [55] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:50,474 [55] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:11:50,661 [58] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:11:50,666 [58] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:11:50,671 [58] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:11:50,676 [58] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:11:50,682 [58] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+
+
+
+21 Feb 2017 18:14:18,564 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:14:18,580 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:14:18,585 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:14:18,605 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:14:18,892 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:14:25,294 [17] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:14:25,299 [17] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:14:25,306 [17] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:14:25,311 [17] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:14:25,317 [17] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:24:17,471 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:24:17,488 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:24:17,493 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:24:17,514 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:24:17,805 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:24:24,003 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:24:24,008 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:24:24,014 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:24:24,020 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:24:24,026 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+21 Feb 2017 18:24:27,883 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+21 Feb 2017 18:24:27,888 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+21 Feb 2017 18:24:27,894 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+21 Feb 2017 18:24:27,899 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+21 Feb 2017 18:24:27,905 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved

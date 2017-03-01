@@ -1,0 +1,209 @@
+20 Feb 2017 15:48:03,725 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:48:03,741 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:49:29,552 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:49:29,567 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:49:29,588 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 15:49:29,898 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 15:52:55,562 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:53:40,290 [8] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.ArgumentNullException: Value cannot be null.
+Parameter name: s
+   at System.Convert.FromBase64String(String s)
+   at KickOff.Authentication.KickOffAuthenticationAttribute.OnActionExecuting(HttpActionContext actionContext) in C:\Users\optimus2\Documents\Visual Studio 2015\Projects\KickOff\KickOff\Authentication\KickOffAuthentication.cs:line 25
+   at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+20 Feb 2017 15:53:45,511 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:53:51,884 [15] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at KickOff.Authentication.KickOffAuthenticationAttribute.OnActionExecuting(HttpActionContext actionContext) in C:\Users\optimus2\Documents\Visual Studio 2015\Projects\KickOff\KickOff\Authentication\KickOffAuthentication.cs:line 26
+   at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+20 Feb 2017 15:53:58,819 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:55:40,814 [15] DEBUG KickOff.ExceptionHandle.GlobalExceptionHandler - System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at KickOff.Authentication.KickOffAuthenticationAttribute.OnActionExecuting(HttpActionContext actionContext) in C:\Users\optimus2\Documents\Visual Studio 2015\Projects\KickOff\KickOff\Authentication\KickOffAuthentication.cs:line 25
+   at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+20 Feb 2017 15:55:48,151 [18] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:55:48,159 [18] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:57:49,852 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:57:49,870 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:58:07,388 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:58:07,395 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:58:38,479 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 15:58:38,498 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 15:58:38,522 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 15:58:38,838 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:04:15,829 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:04:15,847 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = akhil
+20 Feb 2017 16:04:15,855 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = akhil
+20 Feb 2017 16:04:15,861 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:04:15,884 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:04:16,167 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:10:08,746 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:10:08,764 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:10:08,770 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:10:08,776 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:10:08,799 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:10:09,084 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:13:28,840 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:13:28,860 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:13:28,866 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:13:28,872 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:13:28,896 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:13:29,176 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:13:34,031 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:13:34,038 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:13:34,044 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = passwork
+20 Feb 2017 16:13:34,049 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:13:34,054 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:13:34,060 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:14:14,887 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:14:14,905 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:14:14,909 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = passwork
+20 Feb 2017 16:14:14,914 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:14:20,696 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:14:20,701 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:14:20,707 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = passworr
+20 Feb 2017 16:14:20,713 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:14:27,763 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:14:27,785 [13] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Value cannot be null.
+Parameter name: s
+20 Feb 2017 16:14:27,791 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:14:27,815 [13] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:14:28,091 [13] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:14:44,841 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:14:44,854 [15] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Value cannot be null.
+Parameter name: s
+20 Feb 2017 16:14:44,859 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:14:44,863 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:14:44,869 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:15:55,248 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:15:55,264 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:15:55,269 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = passworr
+20 Feb 2017 16:15:55,274 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:16:18,306 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:16:18,313 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:16:18,320 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:16:18,329 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:16:18,354 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:16:18,624 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:16:32,727 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:16:32,744 [11] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Value cannot be null.
+Parameter name: s
+20 Feb 2017 16:16:32,749 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:16:39,114 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:16:39,131 [11] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Value cannot be null.
+Parameter name: s
+20 Feb 2017 16:16:39,136 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:18:33,336 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:18:33,354 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:18:33,359 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = pa
+20 Feb 2017 16:18:33,365 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticated user
+20 Feb 2017 16:20:47,086 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:20:47,103 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:20:47,108 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:20:47,130 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:20:47,450 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:21:52,375 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:21:52,391 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:21:52,396 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:21:52,419 [8] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:21:52,757 [8] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:24:41,378 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:24:41,394 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:24:41,398 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:24:41,420 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:24:41,708 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:24:47,835 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:24:47,851 [13] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Invalid length for a Base-64 char array or string.
+20 Feb 2017 16:24:47,856 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 16:24:59,849 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:24:59,854 [14] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 16:27:48,425 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:27:48,444 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:27:48,450 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:27:48,473 [7] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:27:48,749 [7] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 16:27:52,052 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:27:52,058 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 16:27:54,413 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:27:54,418 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 16:28:59,940 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:28:59,958 [7] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 16:29:03,364 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 16:29:03,369 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 16:29:03,375 [13] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 16:29:03,397 [13] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 16:29:03,666 [13] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 17:51:18,474 [103] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 17:51:18,490 [103] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 17:51:18,494 [103] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 17:51:18,516 [103] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 17:51:18,798 [103] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 17:51:29,105 [103] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 17:51:29,110 [103] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 17:51:33,139 [104] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 17:51:33,145 [104] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+20 Feb 2017 18:51:00,374 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 18:51:00,397 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+20 Feb 2017 18:51:00,402 [15] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+20 Feb 2017 18:51:00,424 [15] INFO  KickOff.Controllers.CustomerController - Getting all customers
+20 Feb 2017 18:51:00,729 [15] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+20 Feb 2017 18:51:04,720 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+20 Feb 2017 18:51:04,735 [11] DEBUG KickOff.Authentication.KickOffAuthenticationAttribute - Value cannot be null.
+Parameter name: s
+20 Feb 2017 18:51:04,740 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated

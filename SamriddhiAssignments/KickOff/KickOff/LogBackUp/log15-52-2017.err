@@ -1,0 +1,16 @@
+15 Feb 2017 14:52:06,728 [7] INFO  KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is info message
+15 Feb 2017 14:52:06,739 [7] DEBUG KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Debug message
+15 Feb 2017 14:52:06,742 [7] ERROR KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Error message
+15 Feb 2017 14:52:06,745 [7] WARN  KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Warn message
+15 Feb 2017 14:52:06,750 [7] FATAL KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Fatal message
+15 Feb 2017 14:52:07,075 [7] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
+15 Feb 2017 14:52:07,075 [7] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
+15 Feb 2017 14:52:41,750 [17] INFO  KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is info message
+15 Feb 2017 14:52:41,754 [17] DEBUG KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Debug message
+15 Feb 2017 14:52:41,757 [17] ERROR KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Error message
+15 Feb 2017 14:52:41,761 [17] WARN  KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Warn message
+15 Feb 2017 14:52:41,764 [17] FATAL KickOff.Controllers.ProjectController - Hello Thanks for use Log4Net,This is Fatal message
+15 Feb 2017 14:52:41,782 [17] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
+15 Feb 2017 14:52:41,782 [17] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
+
+

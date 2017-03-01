@@ -1,0 +1,22 @@
+27 Feb 2017 11:32:08,821 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+27 Feb 2017 11:32:08,838 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+27 Feb 2017 11:32:08,843 [10] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+27 Feb 2017 11:32:08,867 [10] INFO  KickOff.Controllers.CustomerController - Getting all customers
+27 Feb 2017 11:32:09,411 [10] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+27 Feb 2017 11:40:37,957 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+27 Feb 2017 11:40:37,974 [8] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - User not Authenticated
+27 Feb 2017 11:41:12,902 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+27 Feb 2017 11:41:12,907 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+27 Feb 2017 11:41:12,912 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+27 Feb 2017 11:41:12,936 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+27 Feb 2017 11:41:13,221 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+27 Feb 2017 11:41:24,176 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+27 Feb 2017 11:41:24,181 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+27 Feb 2017 11:41:24,186 [11] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+27 Feb 2017 11:41:24,190 [11] INFO  KickOff.Controllers.CustomerController - Getting all customers
+27 Feb 2017 11:41:24,196 [11] INFO  KickOff.Controllers.CustomerController - all customers retrieved
+27 Feb 2017 15:56:48,898 [51] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - Authenticating user
+27 Feb 2017 15:56:48,913 [51] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - user name = samriddhi
+27 Feb 2017 15:56:48,918 [51] INFO  KickOff.Authentication.KickOffAuthenticationAttribute - password = password
+27 Feb 2017 15:56:48,945 [51] INFO  KickOff.Controllers.CustomerController - Getting all customers
+27 Feb 2017 15:56:49,246 [51] INFO  KickOff.Controllers.CustomerController - all customers retrieved

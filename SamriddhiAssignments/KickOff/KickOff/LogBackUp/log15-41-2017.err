@@ -1,0 +1,4 @@
+15 Feb 2017 14:41:14,356 [7] INFO  ErrorLog - Application started 
+15 Feb 2017 14:41:14,356 [7] INFO  ErrorLog - Application started 
+15 Feb 2017 14:41:14,719 [7] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
+15 Feb 2017 14:41:14,719 [7] ERROR ErrorLog - An error occurred while updating the entries. See the inner exception for details.
